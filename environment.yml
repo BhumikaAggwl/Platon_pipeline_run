@@ -1,0 +1,12 @@
+name: platon_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - scipy
+  - matplotlib
+  - pip
+  - pip:
+      - dynesty
+      - emcee
